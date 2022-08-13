@@ -1,0 +1,232 @@
+.headerSection{
+  display: flex;
+  flex-direction: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 70px;
+
+}
+.headerSection img {
+  margin-left: 20px;
+}
+.headerSection button{
+  margin-right: 20px;
+  font-weight: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 80px;
+  border-color:  hsl(322, 100%, 66%);
+  color:  hsl(322, 100%, 66%);
+}
+.headerSection button:hover{
+  color: #fff;
+  background-color: hsl(321, 100%, 78%);
+}
+.introSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.introSection h1{
+  color:  hsl(192, 100%, 9%);
+  font-weight: bolder;
+  font-size: 30px;
+}
+.introSection p{
+  color:  hsl(192, 100%, 9%);
+
+}
+.introSection button {
+margin-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 80px;
+border-color:  transparent;
+background-color: hsl(322, 100%, 66%);
+color:  #fff;
+}
+.introSection button:hover{
+color:  hsl(321, 100%, 78%);
+background-color: #fff;
+border-color:  hsl(321, 100%, 78%);
+}
+.introSection img{
+  margin-top: 50px;
+  width: 65%;
+}
+#replySection{
+  color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.formed img{
+  width: 15%;
+  margin-right: 80px;
+  margin-top: 100px;
+}
+.formed h2{
+  font-size: 40px;
+}
+.sent img{
+  width: 15%;
+  margin-right: 80px;
+  margin-top: 100px;
+}
+.sent h2{
+  font-size: 40px;
+}
+
+.growSection{
+  color: hsl(192, 100%, 9%);
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: left;
+flex-direction: row-reverse;
+font-size: 15px;
+}
+.growSection img{
+  width: 50%;
+}
+.growSection h3{
+  text-align: center;
+  flex-direction: column;
+}
+.flowSection{
+  color: hsl(192, 100%, 9%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: left;
+flex-direction: row;
+font-size: 15px;
+}
+.flowSection1{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  line-height: 2;
+}
+.flowSection img{
+  width: 50%;
+}
+.userSection{
+  color: hsl(192, 100%, 9%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: left;
+flex-direction: row-reverse;
+font-size: 15px;
+}
+.userSection img{
+  width: 50%;
+}
+.communitySection{
+  color: hsl(192, 100%, 9%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: bolder
+}
+.communitySection button{
+  margin-bottom: 50px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 80px;
+  border-color:  transparent;
+  background-color: hsl(322, 100%, 66%);
+  color:  #fff;
+  }
+  .communitySection button:hover{
+  color:  hsl(321, 100%, 78%);
+  background-color: #fff;
+  border-color:  hsl(321, 100%, 78%);
+  }
+  footer{
+    /* background-image: url('images/bg-footer-top-desktop.svg'); */
+    background-size:  320%;
+    background-repeat: no-repeat;
+    position: sticky;
+    background-color: hsl(192, 100%, 9%);
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -25px;
+    color: #fff;
+  }
+  .doublePart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: row;
+  }
+  .lorem img{
+    width: 50%;
+    background-color: #fff;
+  }
+  .newsletter h4{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .newsletter input{
+    padding: 8px;
+    border-color: transparent;
+  }
+  .newsletter button{
+    margin-bottom: 50px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-color:  transparent;
+    background-color: hsl(322, 100%, 66%);
+    color:  #fff;
+    }
+    .newsletter button:hover{
+    color:  hsl(321, 100%, 78%);
+    background-color: #fff;
+    border-color:  hsl(321, 100%, 78%);
+    }
+     svg{
+      justify-content: space-between;
+      margin: 10px;
+    }
+    svg:hover{
+      color: blue;
+    }
+      .attribution {
+        font-size: 11px;
+         text-align: center;
+         margin-bottom: 5px;
+         padding: 10px;
+        }
+      .attribution a {
+         color: hsl(228, 45%, 44%);
+       }
